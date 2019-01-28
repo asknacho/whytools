@@ -1,0 +1,170 @@
+#Kalo mau recode izin dulu sama author
+#Bisa hubungi lewat Email: hamzahhmz09@gmail.com
+#WA: 081321545050
+#Author: WHY HMZ
+#Bekasi Cyber Team
+#Jawa barat cyber Team
+mkdir Tools
+green="\033[32;1m"
+yellow="\033[33;1m"
+indigo="\033[34;1m"
+ungu="\033[35;1m"
+cyan="\033[36;1m"
+white="\033[37;1m"
+red="\033[31;1m"
+clear
+echo
+echo
+echo
+echo
+echo $red"              AKAN MEMBUKA TOOLS DALAM WAKTU 5 DETIK"
+echo $red"                      HARAP SABAR MENUNGGU :)"   
+sleep 1
+echo '''\a
+\033[34;1m                              _
+\033[34;1m                             / |
+\033[34;1m                             | |
+\033[34;1m                             | |
+\033[34;1m                             |_| '''
+sleep 1
+clear
+echo
+echo
+echo
+echo
+echo $red"              AKAN MEMBUKA Tools DALAM WAKTU 5 DETIK"
+echo $red"                      HARAP SABAR MENUNGGU :)"
+sleep 1
+echo '''\a
+\033[32;1m                             ____
+\033[32;1m                            |___ \
+\033[32;1m                             __) |
+\033[32;1m                            / __/
+\033[32;1m                           |_____| '''
+sleep 1
+clear
+echo
+echo
+echo
+echo
+echo $red"             AKAN MEMBUKA Tools DALAM WAKTU 5 DETIK"
+echo $red"                      HARAP SABAR MENUNGGU :)"
+sleep 1
+echo '''\a
+\033[35;1m                            _____
+\033[35;1m                           |___ /
+\033[35;1m                             |_ \
+\033[35;1m                            ___) |
+\033[35;1m                           |____/ '''
+sleep 1
+clear
+echo
+echo
+echo
+echo
+echo $red"             AKAN MEMBUKA Tools INSTALL DALAM WAKTU 5 DETIK"
+echo $red"                      HARAP SABAR MENUNGGU :)"
+sleep 1
+echo '''\a
+\033[33;1m                            _  _
+\033[33;1m                           | || |
+\033[33;1m                           | || |_
+\033[33;1m                           |__   _|
+\033[33;1m                              |_| '''
+sleep 1
+clear
+echo
+echo
+echo
+echo
+echo $red"              AKAN MEMBUKA Tools INSTALL DALAM WAKTU 5 DETIK"
+echo $red"                      HARAP SABAR MENUNGGU :)"
+sleep 1
+echo '''\a
+\033[36;1m                             ____
+\033[36;1m                            | ___|
+\033[36;1m                            |___ \
+\033[36;1m                             ___) |
+\033[36;1m                            |____/ '''
+sleep 1
+clear
+echo
+echo
+pkg install nodejs-lts
+echo $red
+pkg update
+clear
+echo $purple
+pkg upgrade
+clear
+echo $cyan
+pkg install git
+clear
+echo $yellow
+clear
+pkg install wget
+clear
+echo $red
+pkg install php
+clear
+echo $yellow
+pkg install python
+clear
+echo $green
+pkg install python2
+echo $cyan
+pkg install cowsay
+echo $green
+pkg install toilet -y
+clear
+echo $green
+pkg install figlet -y
+clear
+echo $cyan
+pkg install ruby -y
+clear
+gem install figlet
+clear
+gem install lolcat
+clear
+echo
+echo
+echo
+echo
+echo
+echo
+sleep 1
+toilet -f future "Persiapan selesai" | lolcat
+sleep 5
+clear
+echo
+echo
+echo
+echo
+echo
+echo
+toilet -f future "WHY TOOLS" | lolcat
+sleep 5
+clear
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+toilet -f future "WHY TOOLS" | lolcat
+echo
+echo $white "╭─"$yellow"WHY TOOLS"$cyan" ~/ketik (why) untuk melanjutkan ke WHY Tools"$white
+read -p " ╰─$ " kontol
+echo
+echo
+echo
+if [ $kontol = "Why" ] || [ $kontol = "why" ]
+then
+sleep 4
+cd tol
+bash loading.sh
+fi

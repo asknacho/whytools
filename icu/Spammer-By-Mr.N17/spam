@@ -1,0 +1,289 @@
+:#!/system/xbin/bash
+clear
+figlet -f digital xxSPAMMER+BY+MR+N17xx | lolcat
+sleep 1
+echo "\033[1;32m|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|\033[0m
+\033[1;31m|#####|\033[0m        \033[36;1mSPAMMER TOOL         \033[1;31m|#####|\033[0m
+\033[1;32m|xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|\033[0m
+\033[1;31m|#####|\033[0m         \033[36;1mALL IN ONE          \033[1;31m|#####|\033[0m
+\033[1;31m|#####|\033[0m      \033[36;1m17 September 2017      \033[1;31m|#####|\033[0m
+\033[1;31m|#####|\033[0m      \033[36;1mEdited by MR.N17       \033[1;31m|#####|\033[0m
+\033[1;31m|#####|\033[0m  \033[36;1m[Single Player,No Team]    \033[1;31m|#####|\033[0m
+\033[1;32m|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|\033[0m"
+echo ""
+echo "\033[32;1m"
+echo "[#]~X~Pilih Salah Satu Jenis Spam  : "
+sleep 1
+echo "[A] ~ JD.ID ~"
+echo "[B] ~ Tokopedia ~"
+echo "[C] ~ Telkomsel ~"
+echo "[D] ~ Matahari Mall ~"
+echo "[E] ~ HooqTV ~"
+echo "[F] ~ KFC ~"
+echo "[G] ~ PHD ~"
+echo "[H] ~ Whiskas ~"
+echo "[I] ~ ZiPAY ~"
+echo "[J] ~ Email Boom ~"
+echo "[K] ~ Grab ~"
+echo "[L] ~ Lazada ~"
+echo "[M] ~ Hac ~"
+echo "[N] ~ Tiket.com ~"
+echo "[O] ~ Tree (3) ~"
+echo "[P] ~ WhatsApp ~"
+echo "[?] ~ INFO ~"
+echo "[$] ~ Klik Ini Untuk Menjalankan Spammer ~"
+echo "[0] ~ Keluar ~"
+sleep 1
+echo "[#]~X~Ketik Nomor Spammer Yang Kalian Inginkan : "
+read mras
+
+if [ $mras = A ] || [ $mras = a ]
+then
+clear
+toilet -f mono12 JD.ID | lolcat
+cd sc
+php jdid.php
+fi
+
+if [ $mras = B ] || [ $mras = b ]
+then
+clear
+echo "\033[34;1m"
+figlet -f smmono12 "Tokopedia"
+echo "\033[34;1m"
+echo "==========================================="
+figlet -f pagga Created By : |lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[34;1m"
+echo "==========================================="
+cd sc
+php tp.php
+fi
+
+if [ $mras = C ] || [ $mras = c ]
+then
+clear
+echo "\033[31;1m"
+figlet -f smmono12 "Telkomsel"
+echo "==========================================="
+figlet -f pagga Created By :| lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[31;1m"
+echo "==========================================="
+cd sc
+php t.php
+fi
+
+if [ $mras = D ] || [ $mras = d ]
+then
+clear
+echo "\033[36;1m"
+figlet -f smmono12 "Matahari"
+echo "==========================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[36;1m"
+echo "==========================================="
+cd sc
+php mataharimall.php
+fi
+
+if [ $mras = E ] || [ $mras = e ]
+then
+clear
+echo "\033[34;1m"
+figlet -f mono12 "H00Q"
+echo "==========================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[34;1m"
+echo "==========================================="
+cd sc
+php hooq.php
+fi
+
+if [ $mras = F ] || [ $mras = f ]
+then
+clear
+toilet -f mono12 --gay "KFC"
+echo "\033[33;1m"
+echo "==========================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[33;1m"
+echo "==========================================="
+cd sc
+php kfc.php
+fi
+
+if [ $mras = G ] || [ $mras = g ]
+then
+clear
+toilet -f mono12 -F gay "PHD"
+echo "\033[30;1m"
+echo "==========================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[30;1m"
+echo "==========================================="
+cd sc
+php phd.php
+fi
+
+if [ $mras = H ] || [ $mras = h ]
+then
+clear
+echo "\033[34;1m"
+figlet -f smmono12 "Whiskas"
+echo "==========================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[34;1m"
+echo "==========================================="
+cd sc
+php whiskas.php
+fi
+
+if [ $mras = I ] || [ $mras = i ]
+then
+clear
+echo "\33[33;1m"
+figlet -f mono12 "ZiPAY"
+echo "==========================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\33[33;1m"
+echo "==========================================="
+cd sc
+php zipay.php
+fi
+
+if [ $mras = J ] || [ $mras = j ]
+then
+clear
+echo "\33[33;1m"
+figlet -f smmono12 "Email Bomm"
+echo "==========================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\33[33;1m"
+echo "==========================================="
+cd sc
+python2 6.py
+fi
+
+if [ $mras = K ] || [ $mras = k ]
+then
+clear
+echo "\033[36;1m"
+figlet -f mono12 Grab
+echo "==========================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[31;1m"
+echo "==========================================="
+cd sc
+python2 spammer.py
+echo "\033[31;1m Ketik : "
+echo "\033[32;1m python2 Spammer-By-Mr.N7/sc/spammer.py 689123xxxx --delay 30"
+fi
+
+if [ $mras = L ] || [ $mras = l ]
+then
+clear
+echo "\033[34;1m"
+figlet -f smmono12 Lazada | lolcat
+echo "\033[34;1m"
+echo "==========================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[34;1m"
+echo "==========================================="
+python2 sc/lazada.py
+fi
+
+if [ $mras = M ] || [ $mras = m ]
+then
+clear
+cd sc
+php hac.php
+fi
+
+if [ $mras = N ] || [ $mras = n ]
+then
+clear
+cd sc
+php tiket-com.php
+fi
+
+if [ $mras = O ] || [ $mras = o ]
+then
+clear
+echo "\033[36;1m"
+figlet -f smmono12 "Three (3)"
+echo "============================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[36;1m"
+echo "============================================="
+cd sc
+sh spam.sh
+fi
+
+if [ $mras = P ] || [ $mras = p ]
+then
+clear
+echo "\033[36;1m"
+figlet -f smmono12 "WhatsApp"
+echo "============================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[36;1m"
+echo "============================================="
+cd sc
+php wa.php
+fi
+
+if [ $mras = ? ] || [ $mras = ? ]
+then
+clear
+cat Info.txt
+fi
+
+if [ $mras = $ ] || [ $mras = $ ]
+then
+cd sc
+figlet -f smmono12 Tools Spammer | lolcat
+echo "\033[33;1m"
+echo "==========================================="
+figlet -f pagga Created By : | lolcat
+figlet -f smmono12 Mr.N17 | lolcat
+echo "\033[33;1m"
+echo "==========================================="
+sh i
+cd ..
+sh spam
+fi
+
+if [ $mras = 0 ] || [ $mras = 0 ]
+then
+echo "\033[31;1m"
+figlet -f smmono9 "Keluar"
+sleep 1
+echo "\033[33;1m"
+figlet -f smmono9 "Out"
+sleep 1
+echo "\033[32;1m"
+figlet -f smmono9 "Good Luck :)"
+sleep 1
+figlet -f smmono9 "1." | lolcat
+sleep 1
+figlet -f smmono9 "2.." | lolcat
+sleep 1
+figlet -f smmono9 "3..." | lolcat
+sleep 1
+clear
+clear
+clear
+exit
+fi
